@@ -1,0 +1,20 @@
+/*footeer*/
+
+section.footer {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+}
+section.footer div.footer__rodapie {
+    font-family: 'Raleway';
+    color: blueviolet;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}

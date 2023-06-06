@@ -1,0 +1,105 @@
+@media screen and (min-width: 426px/*Mobile*/) { 
+    /*Menu*/
+    section.menu {
+        display: flex;
+        flex-direction: row;
+        margin-left: 32px;
+    }
+    header.menu__header {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    header.menu__header h3 {
+        font-family: var(--raleway);
+        color: blueviolet ;
+        margin-top: 15px;
+        padding-left: 15px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    section.menu nav ul.menu__list{
+        display: none;
+    }
+    section.menu nav li.menu__list__item__contato {
+        display: flex;
+        align-self: flex-end;
+    }
+    section.menu nav ul.menu__list li a {
+        color: var(--fuente-ceniza-oscuro);
+        text-decoration: none;
+    }
+    section.menu nav ul.menu__list li a:hover {
+        color: orange;
+        text-decoration: underline;
+    }
+    section.menu nav ul.menu__list li:nth-child(6) {
+        color: #fdfdfd;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 768px/*Tablet*/) {
+    /* Menú */
+    section.menu nav ul.menu__list {
+        display: none;
+    }
+
+    section.menu nav li.menu__list__item__contato {
+        justify-items: end;
+    }
+}
+
+
+@media screen and (min-width: 922px/*Desktop*/){
+
+}
+/*Sección Menu*/
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+    margin: 0 153px;
+}
+section.menu header.menu__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+}
+section.menu header.menu__header h3 {
+    font-family: var(--raleway);
+    color: blueviolet ;
+    margin-top: 15px;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+section.menu nav ul.menu__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 750px;
+}
+section.menu nav ul.menu__list li a {
+    color: var(--fuente-ceniza-oscuro);
+    text-decoration: none;
+}
+section.menu nav ul.menu__list li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+section.menu nav ul.menu__list li:nth-child(6) {
+    color: #fdfdfd;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+section.menu nav li.menu__list__item__contato a {
+    display: none;
+}
+

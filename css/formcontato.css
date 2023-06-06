@@ -1,0 +1,178 @@
+/* section.formcontato {
+    padding: 64px 0;
+    background-color: #EAF2FD;
+}
+section.formcontato div.formcontato__contacto {
+    display: flex;
+    justify-content: center;
+    margin: 0 153px;
+}
+section.formcontato div.formcontato__text {
+    padding-left: 16px;
+}
+section.formcontato h2.formcontato__title {
+    font-family: var(--raleway);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    color: #464646;
+    padding-bottom: 8px;
+}
+section.formcontato h3.formcontato__subtext {
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    color: #464646;
+}
+section.formcontato form.formcontato__form input.formcontato__input {
+    margin-top: 32px;
+    width: 656px;
+    height: 56px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+    text-decoration: #464646;
+}
+section.formcontato form.formcontato__form input.formcontato__input__e {
+    margin-top: 32px;
+    width: 656px;
+    height: 56px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+}
+section.formcontato form.formcontato__form input.formcontato__input__e.valid{
+    border-bottom: 2px solid #2A7AE4;
+} 
+section.formcontato form.formcontato__form textarea.formcontato__textarea {
+    margin-top: 32px;
+    width: 656px;
+    height: 133px;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+}
+section.formcontato form.formcontato__form textarea.formcontato__textarea.valid {
+    border-bottom: 2px solid #2A7AE4;
+}
+section.formcontato form.formcontato__form input.formcontato__input.valid{
+     border-bottom: 2px solid #2A7AE4;
+} 
+section.formcontato form.formcontato__form button.formcontato__boton {
+    background: #2A7AE4;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+}
+section.formcontato form.formcontato__form button.formcontato__boton:hover {
+    background: #ff9c00;
+    color: #ffffff;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+} */
+
+/* Estilo de Validacion de la Forma de Contacto */
+input, textarea{
+    border:2px solid #fff;
+    background:#eee;
+}
+input:focus, textarea:focus {
+    outline:none;
+}
+
+.error {
+    border-bottom: 2px solid #f00;
+}
+
+.valid{
+    border-bottom: 2px solid #2A7AE4;
+}
+
+/*.invalid{
+  background:red;
+}*/
+
+#errors span{
+    padding-top: 10px;
+    width:82%;
+    display:block;
+}
+/*Mobile*/
+/* @media screen and (min-width: 0) and (max-width: 426px) {
+    section.formcontato div.formcontato__contacto {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 32px;
+    }
+    div.formcontato--izquirda img {
+        display: none;
+    }
+    section.formcontato h2.formcontato__title {
+        font-family: var(--raleway);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        color: #464646;
+        padding-bottom: 8px;
+    }
+    section.formcontato h3.formcontato__subtext {
+        font-family: var(--raleway);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.78px;
+        color: #464646;
+    }
+}
+/*Tablet*/
+/* @media screen and (min-width: 427px) and (max-width: 768px)  {
+    section.formcontato div.formcontato__contacto {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 32px;
+    }
+    div.formcontato--izquirda img {
+        display: none;
+    }
+    section.formcontato h2.formcontato__title {
+        font-family: var(--raleway);
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #464646;
+        padding-bottom: 8px;
+    }
+    section.formcontato h3.formcontato__subtext {
+        font-family: var(--raleway);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.78px;
+        color: #464646;
+    }
+} */
+
+/* @media screen and (min-width: 922px/ */ 
